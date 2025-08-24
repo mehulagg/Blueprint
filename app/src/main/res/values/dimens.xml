@@ -6,4 +6,19 @@
     <dimen name="cards_corner_size">6dp</dimen>
     <dimen name="medium_components_corner_size">8dp</dimen>
     <dimen name="large_components_corner_size">12dp</dimen>
+    
+    <!-- Material 3 Expressive dimensions -->
+    <dimen name="expressive_small_components_corner_size">8dp</dimen>
+    <dimen name="expressive_cards_corner_size">16dp</dimen>
+    <dimen name="expressive_medium_components_corner_size">20dp</dimen>
+    <dimen name="expressive_large_components_corner_size">28dp</dimen>
+    <dimen name="expressive_extra_large_components_corner_size">32dp</dimen>
+    
+    <!-- Enhanced elevation for expressive design -->
+    <dimen name="expressive_cards_elevation">4dp</dimen>
+    <dimen name="expressive_elevated_cards_elevation">8dp</dimen>
+    
+    <!-- Enhanced spacing for expressive design -->
+    <dimen name="expressive_grids_spacing">12dp</dimen>
+    <dimen name="expressive_content_padding">24dp</dimen>
 </resources>

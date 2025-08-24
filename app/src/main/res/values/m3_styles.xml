@@ -15,6 +15,27 @@
         <item name="customFontNormal">@font/manrope_normal_fam</item>
     </style>
 
+    <!-- Material 3 Expressive variants -->
+    <style name="MyApp.Default.MaterialYou.Expressive" parent="Blueprint.Default.MaterialYou">
+        <item name="bottomNavigationStyle">@style/MyApp.BottomNavigationView.MaterialYou.Expressive</item>
+        <item name="customFontBold">@font/manrope_bold_fam</item>
+        <item name="customFontNormal">@font/manrope_normal_fam</item>
+        <!-- Override shape attributes for expressive design -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Frames.SmallComponent.MaterialYou.Expressive</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Frames.MediumComponent.MaterialYou.Expressive</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Frames.LargeComponent.MaterialYou.Expressive</item>
+    </style>
+
+    <style name="MyApp.Default.Amoled.MaterialYou.Expressive" parent="Blueprint.Default.Amoled.MaterialYou">
+        <item name="bottomNavigationStyle">@style/MyApp.BottomNavigationView.MaterialYou.Expressive</item>
+        <item name="customFontBold">@font/manrope_bold_fam</item>
+        <item name="customFontNormal">@font/manrope_normal_fam</item>
+        <!-- Override shape attributes for expressive design -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Frames.SmallComponent.MaterialYou.Expressive</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Frames.MediumComponent.MaterialYou.Expressive</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Frames.LargeComponent.MaterialYou.Expressive</item>
+    </style>
+
     <!-- Don't change the parent style -->
     <style name="MyApp.BottomNavigationView.MaterialYou" parent="Widget.Blueprint.BottomNavigationView.MaterialYou">
         <!--
@@ -27,6 +48,13 @@
             Learn more: https://developer.android.com/reference/com/google/android/material/bottomnavigation/LabelVisibilityMode
         -->
         <item name="labelVisibilityMode">labeled</item>
+    </style>
+
+    <!-- Expressive bottom navigation with enhanced styling -->
+    <style name="MyApp.BottomNavigationView.MaterialYou.Expressive" parent="Widget.Blueprint.BottomNavigationView.MaterialYou">
+        <item name="labelVisibilityMode">labeled</item>
+        <!-- Enhanced corner radius for expressive design -->
+        <item name="shapeAppearance">@style/ShapeAppearance.Frames.MediumComponent.MaterialYou.Expressive</item>
     </style>
 
 </resources>
