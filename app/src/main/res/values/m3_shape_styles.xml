@@ -26,4 +26,15 @@
         <item name="cornerSize">@dimen/cards_corner_size</item>
     </style>
 
+    <!-- Blueprint IconsPreview with expressive corners when in expressive mode -->
+    <style name="ShapeAppearance.Blueprint.IconsPreview.MaterialYou" parent="ShapeAppearance.Frames.MediumComponent.MaterialYou">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/cards_corner_size</item>
+    </style>
+
+    <style name="ShapeAppearance.Blueprint.IconsPreview.MaterialYou.Expressive" parent="ShapeAppearance.Frames.MediumComponent.MaterialYou.Expressive">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/expressive_cards_corner_size</item>
+    </style>
+
 </resources>

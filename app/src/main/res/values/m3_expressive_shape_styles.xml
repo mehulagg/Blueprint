@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Material 3 Expressive Shape Styles
+        Learn more about Material 3 Expressive Design at:
+        https://m3.material.io/styles/shape/overview
+        Important: do NOT change the style names, just the attributes/properties
+    -->
+
+    <style name="ShapeAppearance.Frames.SmallComponent.MaterialYou.Expressive" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/expressive_small_components_corner_size</item>
+    </style>
+
+    <style name="ShapeAppearance.Frames.MediumComponent.MaterialYou.Expressive" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/expressive_medium_components_corner_size</item>
+    </style>
+
+    <style name="ShapeAppearance.Frames.LargeComponent.MaterialYou.Expressive" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/expressive_large_components_corner_size</item>
+    </style>
+
+    <style name="ShapeAppearance.Frames.ExtraLargeComponent.MaterialYou.Expressive" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/expressive_extra_large_components_corner_size</item>
+    </style>
+
+    <style name="ShapeAppearance.Frames.CardView.MaterialYou.Expressive" parent="ShapeAppearance.Frames.MediumComponent.MaterialYou.Expressive">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/expressive_cards_corner_size</item>
+    </style>
+
+    <!-- Expressive Bottom Sheet shape -->
+    <style name="ShapeAppearance.Frames.BottomSheet.MaterialYou.Expressive" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">@dimen/expressive_large_components_corner_size</item>
+        <item name="cornerSizeTopRight">@dimen/expressive_large_components_corner_size</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+    <!-- Expressive Dialog shape -->
+    <style name="ShapeAppearance.Frames.Dialog.MaterialYou.Expressive" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/expressive_extra_large_components_corner_size</item>
+    </style>
+
+</resources>

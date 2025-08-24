@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material 3 Expressive Color Enhancements -->
+    
+    <!-- Enhanced accent colors for more expressive design -->
+    <color name="m3_expressive_primary">@android:color/system_accent1_500</color>
+    <color name="m3_expressive_primary_container">@android:color/system_accent1_100</color>
+    <color name="m3_expressive_on_primary_container">@android:color/system_accent1_900</color>
+    
+    <color name="m3_expressive_secondary">@android:color/system_accent2_500</color>
+    <color name="m3_expressive_secondary_container">@android:color/system_accent2_100</color>
+    <color name="m3_expressive_on_secondary_container">@android:color/system_accent2_900</color>
+    
+    <color name="m3_expressive_tertiary">@android:color/system_accent3_500</color>
+    <color name="m3_expressive_tertiary_container">@android:color/system_accent3_100</color>
+    <color name="m3_expressive_on_tertiary_container">@android:color/system_accent3_900</color>
+    
+    <!-- Enhanced surface colors with more dynamic tones -->
+    <color name="m3_expressive_surface_container_lowest">@android:color/system_neutral1_10</color>
+    <color name="m3_expressive_surface_container_low">@android:color/system_neutral1_50</color>
+    <color name="m3_expressive_surface_container">@android:color/system_neutral1_100</color>
+    <color name="m3_expressive_surface_container_high">@android:color/system_neutral1_200</color>
+    <color name="m3_expressive_surface_container_highest">@android:color/system_neutral1_300</color>
+    
+    <!-- Enhanced elevation overlays for expressive design -->
+    <color name="m3_expressive_surface_tint">@android:color/system_accent1_300</color>
+    
+    <!-- Dark theme expressive colors -->
+    <color name="m3_expressive_dark_primary">@android:color/system_accent1_300</color>
+    <color name="m3_expressive_dark_primary_container">@android:color/system_accent1_700</color>
+    <color name="m3_expressive_dark_on_primary_container">@android:color/system_accent1_100</color>
+    
+    <color name="m3_expressive_dark_secondary">@android:color/system_accent2_300</color>
+    <color name="m3_expressive_dark_secondary_container">@android:color/system_accent2_700</color>
+    <color name="m3_expressive_dark_on_secondary_container">@android:color/system_accent2_100</color>
+    
+    <color name="m3_expressive_dark_tertiary">@android:color/system_accent3_300</color>
+    <color name="m3_expressive_dark_tertiary_container">@android:color/system_accent3_700</color>
+    <color name="m3_expressive_dark_on_tertiary_container">@android:color/system_accent3_100</color>
+    
+    <!-- Enhanced dark surface colors -->
+    <color name="m3_expressive_dark_surface_container_lowest">@android:color/system_neutral1_900</color>
+    <color name="m3_expressive_dark_surface_container_low">@android:color/system_neutral1_800</color>
+    <color name="m3_expressive_dark_surface_container">@android:color/system_neutral1_700</color>
+    <color name="m3_expressive_dark_surface_container_high">@android:color/system_neutral1_600</color>
+    <color name="m3_expressive_dark_surface_container_highest">@android:color/system_neutral1_500</color>
+    
+    <color name="m3_expressive_dark_surface_tint">@android:color/system_accent1_400</color>
+</resources>
